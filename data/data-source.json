@@ -1,0 +1,100 @@
+[
+    {
+        "id": 0,
+        "guid": "3603b440-a649-4001-a6a1-03ab58dace67",
+        "text": "Create user info page",
+        "type": "task",
+        "status": 0
+    },
+    {
+        "id": 1,
+        "guid": "c0edefda-aaf4-4a1f-a47d-7f8905bca6d8",
+        "text": "User can input script in input fields",
+        "type": "bug",
+        "status": 1
+    },
+    {
+        "id": 2,
+        "guid": "db5d5722-4dbb-4e76-952a-c422997d54e0",
+        "text": "Buy a present for wife",
+        "type": "other",
+        "status": 2
+    },
+    {
+        "id": 3,
+        "guid": "8a70d12d-fbfe-42f2-9b0a-e96bf44339c0",
+        "text": "Cars needs some fuel ... TODAY!",
+        "type": "other",
+        "status": 1
+    },
+    {
+        "id": 4,
+        "guid": "c0164106-8a34-481c-9521-14b9ed03a88b",
+        "text": "Icon is not visible in IE8",
+        "type": "bug",
+        "status": 0
+    },
+    {
+        "id": 5,
+        "guid": "dedf5e11-f258-4e85-bc9d-b8ab197eadb1",
+        "text": "Make the page design responsive",
+        "type": "task",
+        "status": 1
+    },
+    {
+        "id": 6,
+        "guid": "79a8a2dc-deff-4897-aff8-3a0c5c4fb7b1",
+        "text": "Add support for touch events",
+        "type": "task",
+        "status": 0
+    },
+    {
+        "id": 7,
+        "guid": "dfc4e119-a9b0-49fb-8580-7d6b32de6e58",
+        "text": "Don't forget to rtfm",
+        "type": "other",
+        "status": 0
+    },
+    {
+        "id": 8,
+        "guid": "b367965d-e9e9-4065-816d-7fd4c94761a6",
+        "text": "Unhandled exception on welcome screen",
+        "type": "bug",
+        "status": 2
+    },
+    {
+        "id": 9,
+        "guid": "a1530c13-c539-40f2-8fc6-10389c2e123b",
+        "text": "Add validation",
+        "type": "task",
+        "status": 2
+    },
+    {
+        "id": 10,
+        "guid": "48c296d2-d430-4502-9745-c0eba16005ad",
+        "text": "cherry",
+        "type": "task",
+        "status": 0
+    },
+    {
+        "id": 11,
+        "guid": "1f9bc5e3-7d41-4faa-ae58-f40a448eaa6a",
+        "text": "apple",
+        "type": "other",
+        "status": 0
+    },
+    {
+        "id": 12,
+        "guid": "6571cd83-a83c-4b28-9683-c1b010a36345",
+        "text": "lemon",
+        "type": "other",
+        "status": 1
+    },
+    {
+        "id": 13,
+        "guid": "a532ac37-2376-4c8f-8792-7844c9fb07e8",
+        "text": "apple",
+        "type": "bug",
+        "status": 2
+    }
+]

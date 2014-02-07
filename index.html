@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js"> <!--<![endif]-->
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title></title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+
+        <!-- Place favicon.ico and apple-touch-icon.png in the root directory -->
+
+        <link rel="stylesheet" href="css/normalize.css">
+        <link rel="stylesheet" href="css/main.css">
+        <link href="css/vendor/bootstrap.min.css" rel="stylesheet">
+
+        <link rel="stylesheet" href="css/app.css">
+
+        <script src="js/vendor/modernizr-2.6.2.min.js"></script>
+    </head>
+    <body>
+        <!--[if lt IE 7]>
+            <p class="browsehappy">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
+        <![endif]-->
+
+        <h2 class="well">Getting Things Done</h2>
+
+        <div id="deckContainer"></div>
+
+        <!-- <script src="//ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script> -->
+        <script>window.jQuery || document.write('<script src="js/vendor/jquery-1.10.2.js"><\/script>')</script>
+        <script src="js/vendor/jquery-ui-1.10.4.custom.min.js"></script>
+        <script src="js/vendor/jsrender.min.js"></script>
+        <script src="js/vendor/bootstrap.min.js"></script>
+        <script src="js/plugins.js"></script>
+
+        <script src="js/main.js"></script>
+
+        <script src="js/vendor/bootstrap.min.js"></script>
+
+        <script src="js/app/core/namespace.js"></script>
+
+        <script src="js/app/config/templates.config.js"></script>
+        <script src="js/app/config/maps.config.js"></script>
+        <script src="js/app/config/event.config.js"></script>
+
+        <script src="js/app/services/data-service.js"></script>
+        <script src="js/app/services/layout-helper.js"></script>
+
+        <script src="js/app.js"></script>
+
+        <script id="cardTemplate" type="text/x-jsrender">
+            <div id="{{:guid}}" class="draggable-card panel panel-default card-{{:type}}">
+                <div class="panel-body">
+                    <span class="card-id">#{{:id}}</span>{{:text}}
+                    <div class="pull-right">
+                        
+                        <span class="glyphicon glyphicon-edit"></span>
+                        <span class="glyphicon glyphicon-remove"></span>
+                    </div>
+                </div>
+            </div>
+        </script>
+    </body>
+</html>
