@@ -31,7 +31,7 @@
 
         <!-- <script src="//ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script> -->
         <script>window.jQuery || document.write('<script src="js/vendor/jquery-1.10.2.js"><\/script>')</script>
-        <script src="js/vendor/jquery-ui-1.10.4.custom.min.js"></script>
+        <script src="js/vendor/jquery-ui-1.10.4.custom.js"></script>
         <script src="js/vendor/jsrender.min.js"></script>
         <script src="js/vendor/bootstrap.min.js"></script>
         <script src="js/plugins.js"></script>
@@ -54,12 +54,16 @@
         <script id="cardTemplate" type="text/x-jsrender">
             <div id="{{:guid}}" class="draggable-card panel panel-default card-{{:type}}">
                 <div class="panel-body">
-                    <span class="card-id">#{{:id}}</span>{{:text}}
-                    <div class="pull-right">
-                        
+                    
+                    <div class="card-contents">
+                        <span class="card-id">#{{:id}}</span>
+                        {{:text}}
+                    </div>
+                    <div class="pull-right card-controls">
                         <span class="glyphicon glyphicon-edit"></span>
                         <span class="glyphicon glyphicon-remove"></span>
                     </div>
+
                 </div>
             </div>
         </script>

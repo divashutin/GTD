@@ -79,6 +79,10 @@
                     e.cardId = card.attr('id')
 
                     $(document).trigger(e);
+
+                    // HACK: remove style added by jquery ui to change cursor on drag,
+                    // TODO: check what event is not fired to return cursor back to auto
+                    $('body').css('cursor', 'auto');
                 },
                 hoverClass: 'drop-hover'
             });

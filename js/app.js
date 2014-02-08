@@ -52,7 +52,8 @@
         }
 
         function loadFromLocalStorage() {
-            var cards = JSON.parse(localStorage[localStorageCardsKey]);
+            var cardsString = localStorage[localStorageCardsKey]
+            var cards = cardsString ? JSON.parse(cardsString) : null;
 
             self.cards = cards || [];
 
